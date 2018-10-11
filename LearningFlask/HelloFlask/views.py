@@ -9,4 +9,6 @@ def home():
     formatted_now = now.strftime("%A, %d %B, %Y at %X")
     return render_template(
         "index.html",
-        content="<strong>Hello</strong> on"+formatted_now)
+        message="Hello Flask",
+        content="on "+formatted_now
+        )
