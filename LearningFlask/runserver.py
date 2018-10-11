@@ -5,7 +5,7 @@ It contains the definition of routes and views for the application.
 import os
 from HelloFlask import app
 
-
+print("run server")
 
 if __name__ == '__main__':
   
